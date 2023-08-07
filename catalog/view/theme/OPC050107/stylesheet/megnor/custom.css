@@ -116,7 +116,7 @@ span.customSelect.changed {
 .treeview-list li { margin: 0; }
 .treeview-list a.selected { background-color: #eee; }
 
-.treeview-list .hover { color:#E73B2B; cursor: pointer; }
+.treeview-list .hover { color:#8AC42F; cursor: pointer; }
 .treeview-list li a:hover,.treeview-list li.nav-1 a:hover	 {   cursor:pointer; }
 .treeview-list li ul li:hover	{ background:none;}
 .treeview-list li a { display:inline;  padding-left:0px; }

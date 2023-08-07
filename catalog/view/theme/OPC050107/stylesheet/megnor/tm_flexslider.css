@@ -104,8 +104,8 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav a.flex-next:hover {
     background-position: -65px -140px;
 }
-.flex-control-paging li a:hover { background: none repeat scroll 0 0 #E73B2B; }
-.flex-control-paging li a.flex-active { background: none repeat scroll 0 0 #E73B2B; cursor: default; }
+.flex-control-paging li a:hover { background: none repeat scroll 0 0 #8AC42F; }
+.flex-control-paging li a.flex-active { background: none repeat scroll 0 0 #8AC42F; cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
