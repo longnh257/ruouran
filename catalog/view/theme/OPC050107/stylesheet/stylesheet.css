@@ -359,18 +359,18 @@ label {
 #header,
 .nav-inner,
 .footer-inner {
-  width: 1000px;
+  width: 1020px;
   margin: 0 auto;
   text-align: left;
 }
-
 .content-inner {
   /* background: url("../image/megnor/bckg.jpg") repeat scroll left top transparent; */
   border: 1px solid #d2d2d2;
   margin: 20px auto;
   overflow: hidden;
   padding: 9px;
-  width: 1000px;
+  width: 1020px;
+  box-sizing: border-box;
 }
 
 .home .content-inner_sub {
@@ -380,7 +380,7 @@ label {
   background: none repeat scroll 0 0 #ffffff;
   float: left;
   padding-top: 10px;
-  width: 998;
+  width: 1018px;
 }
 
 #header-container,
@@ -777,7 +777,7 @@ copyright-container {
   margin: 0 auto;
   /* margin: 0 auto 0 -43px;
 		padding-left: 50px; */
-  width: 1000px;
+  width: 1020px;
   /*overflow:hidden; HIDE CATEGORIES THOSE ARE OUT OF MANU.  */
 }
 .ie7 .main-menu {
@@ -1662,6 +1662,7 @@ ul.box-filter > li ul {
   overflow: hidden;
   padding: 0;
   position: relative;
+  box-sizing: border-box;
 }
 #content .product-list .product-block {
   border: 1px solid #ebebeb;
@@ -3046,7 +3047,7 @@ ul.box-filter > li ul {
 }
 #main_footer {
   margin: 0px auto;
-  width: 1000px;
+  width: 1020px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -3073,4 +3074,7 @@ ul.box-filter > li ul {
 
 .flexslider, .banner1, .banner2{
 	padding: 0 !important;
+}
+.product-block {
+	height: 320px !important;
 }
