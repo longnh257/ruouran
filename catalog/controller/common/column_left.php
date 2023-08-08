@@ -5,7 +5,8 @@ class ControllerCommonColumnLeft extends Controller {
 		$this->load->model('catalog/category');
 		$this->load->model('catalog/product');
 		$this->load->model('catalog/information');
-
+		$this->language->load('module/category');
+		$this->data['coming_soon'] = $this->language->get('coming_soon');
 		if (isset($this->request->get['route'])) {
 			$route = (string)$this->request->get['route'];
 		} else {

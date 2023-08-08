@@ -59,7 +59,7 @@
             <?php } ?>
         </div>
         <!-- End In Stock -->
-        <div class="content-inner" style="width: 100%; text-align: center;">
+        <div class="content-inner" style="width: calc(100% - 20px); text-align: center;">
             <span style="font-weight: bold; color: red;">Những loại trái cây sau đây hiện tại đang hết mùa, sẽ có lại trong vài tháng tới. </span>
         </div>
         <!-- Out Of Stock -->
