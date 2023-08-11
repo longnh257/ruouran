@@ -359,7 +359,7 @@ label {
 #header,
 .nav-inner,
 .footer-inner {
-  width: 1020px;
+  width: 1200px;
   margin: 0 auto;
   text-align: left;
 }
@@ -369,7 +369,7 @@ label {
   margin: 20px auto;
   overflow: hidden;
   padding: 9px;
-  width: 1020px;
+  width: 1200px;
   box-sizing: border-box;
 }
 
@@ -380,7 +380,7 @@ label {
   background: none repeat scroll 0 0 #ffffff;
   float: left;
   padding-top: 10px;
-  width: 1018px;
+  width: 1200px;
 }
 
 #header-container,
@@ -777,7 +777,7 @@ copyright-container {
   margin: 0 auto;
   /* margin: 0 auto 0 -43px;
 		padding-left: 50px; */
-  width: 1020px;
+  width: 1200px;
   /*overflow:hidden; HIDE CATEGORIES THOSE ARE OUT OF MANU.  */
 }
 .ie7 .main-menu {
@@ -1195,7 +1195,7 @@ input.button:hover {
   background: url("../image/megnor/block_topbg.png") no-repeat scroll 0 -1px transparent;
   color: #ffffff;
   font-family: "Tahoma", Arial, Verdana, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   height: 18px;
   line-height: 13px;
   margin-bottom: 0;
@@ -1212,7 +1212,8 @@ input.button:hover {
 #content .box .box-heading {
   color: #E73B2B;
   font-family: "Tahoma", Arial, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
   padding: 8px 0;
   text-transform: uppercase;
 }
@@ -1589,7 +1590,7 @@ ul.box-filter > li ul {
 .product-grid li,
 #content .box-product .product-items,
 #content .product-carousel .slider-item {
-  width: 185px;
+  width: 33.33%  !important;
   float: left;
   display: inline-block;
 }
@@ -1811,8 +1812,8 @@ ul.box-filter > li ul {
 .product-list .price,
 .product-grid .price,
 #content .box-product .price {
-  color: #777777;
-  font-size: 18px;
+  color: #e73b2b;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -3077,4 +3078,29 @@ ul.box-filter > li ul {
 }
 .product-block {
 	height: 320px !important;
+}
+
+.productbox-content{
+  padding: 10px;
+  text-align: left;
+}
+
+.productbox-content .name a{
+  color:#000
+}
+.home_banner{
+  object-fit: contain;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:800px) {
+  .home_banner{
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+.content-top{
+  display:none;
 }

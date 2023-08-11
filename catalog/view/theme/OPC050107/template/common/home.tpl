@@ -1,7 +1,8 @@
 
 
 <?php echo $header; ?>
-<div class="content-top">
+<img class="home_banner" src='/image/data/snake_banner_1.png'/ >
+<div class="content-top ">
 <?php echo $content_top; ?>
 </div>
 <div class="content-bottom">

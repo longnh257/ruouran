@@ -30,7 +30,8 @@
                             <?php } else { ?>
                             <span class="saleicon sale">Sale</span>
                             <?php } ?>
-
+                            <hr style="margin:10px !important;border: solid 1px #dbdbdb;">
+                            <div class='productbox-content'>
                             <div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
                             </div>
                             <?php if ($product['price']) { ?>
@@ -48,10 +49,12 @@
                                         src="catalog/view/theme/<?php echo $this->config->get('config_template') ?>/image/stars-<?php echo $product['rating']; ?>.png"
                                         alt="<?php echo $product['reviews']; ?>"/></div>
                             <?php } ?>
+                            
+                            </div>
                             <!--<div class="cart"><a value="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button" />Add to Cart</a></div>-->
-
+                            <!--
                             <div><a href="<?php echo $product['href']; ?>" type="button" id="button-cart"
-                                    class="button"><?php echo $button_detail; ?></a></div>
+                                    class="button"><?php echo $button_detail; ?></a></div>-->
                         </div>
                     </div>
                 </div>
@@ -59,9 +62,9 @@
             <?php } ?>
         </div>
         <!-- End In Stock -->
-        <div class="content-inner" style="width: calc(100% - 20px); text-align: center;">
+       <!--  <div class="content-inner" style="width: calc(100% - 20px); text-align: center;">
             <span style="font-weight: bold; color: red;">Những loại trái cây sau đây hiện tại đang hết mùa, sẽ có lại trong vài tháng tới. </span>
-        </div>
+        </div>  -->
         <!-- Out Of Stock -->
         <div class="box-product <?php if ($productCount >= $sliderFor){?>product-carousel<?php }else{?>productbox-grid<?php }?>"
              id="<?php if ($productCount >= $sliderFor){?>all-carousel<?php }else{?>all-grid<?php }?>">
